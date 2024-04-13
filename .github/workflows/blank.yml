@@ -9,7 +9,7 @@ jobs:
         run: echo Welcome to GitHub Actions
       - name: Simple Script
         run: |
-         echo date
+         date
          echo Second line
     
   
