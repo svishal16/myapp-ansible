@@ -1,7 +1,6 @@
 name: Hello World Workflow
 on:
-  push:
-    branches: ["master", "main"]
+ workflow_dispatch:
 jobs:
   Hellow_Job:
     runs-on: ubuntu-latest
